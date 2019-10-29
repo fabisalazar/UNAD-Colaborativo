@@ -68,6 +68,44 @@ body {
   width: 100%;
 }
 
+.author {
+  margin: 10rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 80%;
+  height: fit-content;
+}
+
+.author img {
+  float: rigth;
+  width: 30rem;
+  height: auto;
+  border: 2px solid gray;
+  transform: rotate(-90deg);
+  margin-bottom: 10rem;
+  border-radius: 5rem;
+}
+
+.author iframe {
+  margin: 0 auto;
+  width: 90%;
+  height: 50rem;
+}
+
+.author .data {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-size: 3rem;
+  margin-bottom: 4rem;
+}
+
+.author .data strong {
+  color: blue;
+}
+
 .content {
   text-align: justify
 }
