@@ -99,11 +99,16 @@ body {
   flex-direction: column;
   justify-content: space-evenly;
   font-size: 3rem;
-  margin-bottom: 4rem;
+  margin-bottom: 10rem;
 }
 
 .author .data strong {
   color: blue;
+}
+
+.obje {
+  font-size: 2rem;
+  line-height: 1.5;
 }
 
 .content {
