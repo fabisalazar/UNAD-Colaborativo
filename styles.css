@@ -1,0 +1,204 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  line-height: 1;
+  color: #000;
+}
+
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-width: 110rem;
+  width: 100%;
+  height: 20rem;
+  border-bottom: #e2e2e2 solid 1px;
+}
+
+.main-header img {
+  height: 20rem;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #f1f1f1;
+  color: black;
+}
+
+.navbar a.active {
+  background-color: #e68a00;
+  color: white;
+}
+
+#diseno {
+  height: 19rem;
+  width: 80rem;
+  border-radius: 5px;
+}
+
+.container {
+  width: 80%;
+  min-width: 110rem;
+  margin: 1rem auto;
+}
+
+.container img {
+  width: 100%;
+}
+
+.content {
+  text-align: justify
+}
+
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 2rem;
+  color: #345560;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.info a {
+  text-decoration: none;
+  list-style: none;
+  color: #000;
+}
+
+.info a:hover {
+  color:#345560;
+}
+
+.visitas img {
+  height: 2.5rem;
+  width: 20rem;
+  float: left;
+}
+
+.sideimage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.sideimage a {
+  text-align: center;
+}
+
+.sideimage img {
+  width: 70rem;
+}
+
+.definitions {
+  display: flex;
+  justify-content: space-around;
+}
+
+.definitions >* {
+  padding: 2rem;
+}
+
+.texto {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+
+.head {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+
+.articulo {
+  font-size: 1.8rem;
+  margin-bottom: 10rem;
+}
+
+.listed {
+  padding: 0 1.5rem;
+}
+
+.listed li:nth-child(n+2) {
+  list-style-type: none;
+}
+
+.inner {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+.inner img {
+  width: 100%;
+}
+
+q {
+  font-style: italic;
+}
+
+.media {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+  flex-wrap: wrap;
+  height: fit-content;
+}
+
+.media h2 {
+  width: 100%;
+  height: 1rem;
+}
+
+.media iframe {
+  margin-top: 3rem ;
+  margin-bottom: 50rem;
+  width: 90%;
+  height: 40rem;
+}
+
+
+
+
